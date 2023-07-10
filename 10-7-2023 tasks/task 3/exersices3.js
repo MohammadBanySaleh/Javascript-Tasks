@@ -33,7 +33,7 @@ for (let i = 1; i <= 8; i++) {
   }
   shape += "\n";
 }
-console.log(string);
+console.log(shape);
  /* 
  Check if a string contains the letter “y”. Print “yes” if it does and “no” if it does not.
 let x = "don’t know why"
