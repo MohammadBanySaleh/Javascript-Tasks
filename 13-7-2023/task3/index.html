@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <form action="/action_page.php">
+        <select name="fontType" id="fontType">
+            <option value="sans-serif">sans-serif</option>
+            <option value="cursive">cursive</option>
+            <option value="system-ui">system-ui</option>
+        </select>
+
+        <select name="fontSize" id="fontSize">
+            <option value="10px">10px</option>
+            <option value="15px">15px</option>
+            <option value="20px">20px</option>
+            <option value="25px">25px</option>
+        </select>
+
+        <input type="checkbox" id="italic" name="italic" value="Italic" onchange="checkBoxesFunction()">
+        <label for="italic">Italic</label>
+        <input type="checkbox" id="bold" name="bold" value="bold" onclick="checkBoxesFunction()">
+        <label for="bold">Bold</label>
+        <input type="checkbox" id="underline" name="underline" value="underline" onclick="checkBoxesFunction()">
+        <label for="underline">Underline</label><br><br>
+
+        <textarea name="textArea1" id="textArea1" cols="30" rows="10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed lacus nec leo mattis tincidunt. Ut venenatis ante a ante sagittis vulputate.
+        </textarea>
+    </form>
+    <script src="./script.js"></script>
+</body>
+
+</html>
