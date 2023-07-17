@@ -1,0 +1,41 @@
+[
+    {
+        "Name" : "Mohammed",
+        "Age" : 24,
+        "Major" : "Computer Science",
+        "University" : "Yarmouk University",
+        "Image" : "./images/p1.png"
+    },
+
+    {
+        "Name" : "Ali",
+        "Age" : 20,
+        "Major" : "Physics",
+        "University" : "The dream University",
+        "Image" : "./images/p2.png"
+    },
+
+    {
+        "Name" : "Ahmad",
+        "Age" : 21,
+        "Major" : "Math",
+        "University" : "Harvard",
+        "Image" : "./images/p3.png"
+    },
+
+    {
+        "Name" : "Murad",
+        "Age" : 19,
+        "Major" : "Chemistry",
+        "University" : "Jordanian University",
+        "Image" : "./images/p4.png"
+    },
+
+    {
+        "Name" : "Omar",
+        "Age" : 23,
+        "Major" : "Art",
+        "University" : "Stanford",
+        "Image" : "./images/p5.jpg"
+    }
+]

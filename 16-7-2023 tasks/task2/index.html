@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* #myForm {
+            display: flex;
+            flex-direction: column;
+            width: 70px;
+        } */
+        /* #cardsContainer {
+
+
+        } */
+        .card {
+            width: 200px;
+            border: 1px solid black;
+            margin-right: 20px;
+            text-align: center;
+            background-color: gainsboro;
+        }
+        #cardsContainer{
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="" id="myForm">
+        <label for="fName" style="font-weight: bold;">Name:</label>
+        <input type="text" id="fName" name="Name" class="formInput"><br><br>
+
+        <label for="age" style="font-weight: bold;">Age:</label>
+        <input type="text" id="age" name="Age" class="formInput"><br><br>
+
+        <label for="gender" style="font-weight: bold;">Gender:</label>
+        <input type="text" id="gender" name="Gender" class="formInput"><br><br>
+
+        <label for="bdate" style="font-weight: bold;">Birth Date:</label>
+        <input type="date" id="bdate" name="BirthDate" class="formInput"><br><br><br><br>
+
+        <label for="description" style="font-weight: bold;">Description:</label>
+        <input type="text" id="description" name="Description" class="formInput"><br><br>
+
+        <label for="education" style="font-weight: bold;">Major & University:</label>
+        <input type="text" id="education" name="Education" class="formInput"><br><br>
+
+        <label for="s1" style="font-weight: bold;">Programming languages:</label>
+        <label for="s1"> <input type="checkbox" name="language" value="Python" id="s1">Python</label>
+        <label for="s2"><input type="checkbox" name="language" value="Java" id="s2">Java</label>
+        <label for="s3"><input type="checkbox" name="language" value="JavaScript" id="s3">JavaScript</label><br><br><br><br>
+
+        <label for="siblings" style="font-weight: bold;">Siblings number:</label><br>
+        <input type="text" id="siblings" name="SiblingsNumber" class="formInput"><br><br>
+
+        <label for="siblingsDescription" style="font-weight: bold;">Description of siblings:</label><br>
+        <input type="text" id="siblingsDescription" name="SiblingsDescription" class="formInput"><br><br>
+
+        <input type="button" id="submitBtn" onclick="showData()" value="Submit">
+    </form><br><br><br><br>
+    <div id="cardsContainer">
+        <div id="card1" class="card"></div>
+        <div id="card2" class="card"></div>
+        <div id="card3" class="card"></div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
